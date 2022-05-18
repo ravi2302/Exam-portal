@@ -11,14 +11,6 @@ from pyparsing import common_html_entity
 from setuptools import Command
 window = Tk()
 window.geometry('1200x1000')
-# Self.window_width = screen_width * .01
-# Self.window_height = screen_height * .04
-
-# #Window startst in center of screen
-# Self.window_start_x = (screen_width/2)
-# Self.window_start_y = (screen_height/2)
-# window.geometry("%dx%d" % (Self.window_width, Self.window_height))
-# window.geometry("+%d+%d" % (Self.window_start_x, Self.window_start_y))
 window.title("EXAMINATION PORTAL")
 dateti = str(datetime.datetime.now())
 thing = []
